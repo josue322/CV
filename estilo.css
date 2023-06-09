@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+body {
+  background-color: white;
+}
+
+.logo {
+  margin-left: 380px;
+}
+
+.logo2 {
+  margin-left: 286px;
+}
+
+.logo3 {
+  margin-left: 286px;
+}
+
+
+header {
+  display: flex;
+  background-color: rgb(235, 235, 235);
+  border-radius: 20px;
+}
+
+.caja {
+  width: 300px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  background-color: #740fe7;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Black Ops One', cursive;
+}
+
+.body {
+  padding: 20px;
+}
+
+.dato {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.dato-nombre {
+  width: 120px;
+  font-size: 16px;
+}
+
+.dato-contenido {
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+.footer {
+  background-color: #740fe7;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 0px;
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  margin-bottom: 75px;
+}
+
+.titulo1 {
+  font-size: 25px;
+  color: #740fe7;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  font-family: 'Black Ops One', cursive;
+}
+
+
+.titulo2 {
+  font-size: 25px;
+  color: #740fe7;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  font-family: 'Black Ops One', cursive;
+}
+
+
+.titulos3 {
+  font-size: 25px;
+  color: #740fe7;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  font-family: 'Black Ops One', cursive;
+}
+
+.titulos4 {
+  font-size: 15px;
+  color: #740fe7;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  font-family: 'Black Ops One', cursive;
+}
+
+.titulos5 {
+  font-size: 22px;
+  color: #740fe7;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  font-family: 'Black Ops One', cursive;
+}
+
+.titulos6 {
+  font-size: 22px;
+  color: #740fe7;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  font-family: 'Black Ops One', cursive;
+}
+
+.titulos7 {
+  font-size: 22px;
+  color: #740fe7;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  font-family: 'Black Ops One', cursive;
+}
+
+.tabla {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lista-habilidades {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+.social-facebook {
+  display: inline-block;
+  margin: 0 10px;
+  width: 90px;
+  height: 40px;
+  border-radius: 10%;
+  background-color: #0c1add;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.social-twitter {
+  display: inline-block;
+  margin: 0 10px;
+  width: 90px;
+  height: 40px;
+  border-radius: 10%;
+  background-color: #00acee;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.social-instagram {
+  display: inline-block;
+  padding: 10px 20px;
+  background-image: linear-gradient(to right, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+  border-radius: 10%;
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+
+.social-github {
+  display: inline-block;
+  margin: 0 10px;
+  width: 90px;
+  height: 40px;
+  border-radius: 10%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.correo {
+  display: inline-block;
+  margin: 0 10px;
+  width: 90px;
+  height: 40px;
+  border-radius: 10%;
+  background-color: #db4a39;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+button {
+  --color: #740fe7;
+  font-family: inherit;
+  display: inline-block;
+  width: 8em;
+  height: 2.6em;
+  line-height: 2.5em;
+  margin: 20px;
+  position: relative;
+  overflow: hidden;
+  border: 3px solid var(--color);
+  transition: color .5s;
+  z-index: 1;
+  font-size: 17px;
+  border-radius: 6px;
+  font-weight: 500;
+  color: var(--color);
+}
+
+button:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: var(--color);
+  height: 150px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+button:hover {
+  color: #fff;
+}
+
+button:before {
+  top: 100%;
+  left: 100%;
+  transition: all .7s;
+}
+
+button:hover:before {
+  top: -30px;
+  left: -30px;
+}
+
+button:active:before {
+  background: #740fe7;
+  transition: background 0s;
+}
+
+table {
+  width: 50%;
+  border-collapse: collapse;
+  border: solid;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: center;
+  border: 3px solid #740fe7;
+}
+
+th {
+  background-color: #740fe7;
+
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.nombre-habilidad {
+  font-weight: bold;
+}
+
+.nivel-habilidad {
+  margin-left: 10px;
+  color: #740fe7;
+}
+
+form {
+  background-color: #ffffff;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 40px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #740fe7;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.boton-enviar {
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.audio {
+  margin:  auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
